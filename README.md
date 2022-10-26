@@ -22,7 +22,7 @@
 - SampleID
 - BiopsyID
 - PredictiveID
-- TakingDate
+- TakingDate (Date - ISO 8601)
 - Diagnosis (ICD-10)
 - Retrieved (preop, op, postop, unknown)
 
@@ -32,6 +32,6 @@
 - pTNM (TNM-7)
 - Topography (ICD-O-3)
 - morphology (ICD-O-3)
-- grading
-- cutTime
-- freezeTime
+- grading (SNOMED CT 373372005-family tree)
+- cutTime (Date and time ISO 8601)
+- freezeTime (Date and time ISO 8601)
